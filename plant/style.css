@@ -1,0 +1,145 @@
+/* Apply general styles to the body */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  background: url(https://i.gifer.com/origin/5e/5e4dd631b2b87908516db89eeaefc558_w200.gif);
+}
+
+th {
+  background-color: #04a814;
+  color: white;
+}
+
+td {
+  color: #2c3135;
+  background-color: #fcfcfc;
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+
+p {
+  color: #2c3135;
+  font-size: 14px;
+}
+
+
+th,
+td {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  width: 1000px;
+  border: 1px solid;
+  border-color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+ 
+}
+table{
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  width: 1000px;
+  border: 1px solid;
+  border-color: #ffffff;
+  text-align: center;
+  
+}
+
+td:hover {
+  background-color: #59ff07;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 10px 20px rgb(0, 255, 68);
+}
+
+
+.td:hover,.td:active,.td:focus {
+  background: #00f60c;
+}
+th,
+td {
+  padding: 5px;
+  width: 500px;
+}
+
+input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 80%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 50px;
+
+}
+
+label{
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.tree{
+  position: relative;
+  top: 400px;
+  height: 700px;
+  width: 400px;
+  left: 15px;
+  
+}
+
+form {
+  position: fixed;
+  width: 300px;
+  margin-right: 30px;
+  height: 100%;
+  background-repeat: no-repeat;
+  left: 10px;
+  background-color: rgb(0, 114, 13);
+  top: 10px;
+}
+.form {
+  position: fixed;
+  z-index: 1;
+  background: #FFFFFF;
+  background-image: linear-gradient(to right, rgb(0, 114, 13) , rgb(0, 199, 73));
+  display: flex;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  right: 200px;
+}
+
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #00c206;
+  width: 60%;
+  border: 1px solid;
+  border-color: #ffffff;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+.form button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 10px 20px rgb(0, 255, 68);
+}
+
+.form button:hover,.form button:active,.form button:focus {
+  background: #00f60c;
+}
+
